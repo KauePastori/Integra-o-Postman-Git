@@ -6,14 +6,15 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Testando atualização",
 			"id": "0dbfb76a-1694-4622-9b13-1184c7b9beb9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://viacep.com.br/ws/01011100/json/"
 			},
 			"response": []
 		}
