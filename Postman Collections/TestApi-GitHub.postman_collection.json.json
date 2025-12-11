@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Testando atualização",
+			"name": "Testando atualização novaa",
 			"id": "0dbfb76a-1694-4622-9b13-1184c7b9beb9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://viacep.com.br/ws/03165002/json/"
+				"url": "https://viacep.com.br/ws/02464700/json/"
 			},
 			"response": []
 		}
