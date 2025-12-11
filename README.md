@@ -23,7 +23,6 @@ Estrutura atual (pode ser expandida no futuro):
 Integra-o-Postman-Git/
 ├── Postman Collections/
 │   └── TestApi-GitHub.postman_collection.json   # Collection oficial da TestApi (backup automático do Postman)
-├── TestApi-+ GITHUB.postman_collection.json     # Arquivo de teste inicial (pode ser descontinuado no futuro)
 └── README.md
 ```
 
@@ -113,21 +112,5 @@ Caso seja preciso restaurar uma versão específica da collection a partir do Gi
 - Não armazenar **segredos sensíveis** (tokens de produção, senhas etc.) em environments que sejam versionados em Git.
 - Salvar a collection sempre que realizar alterações relevantes, garantindo que o backup esteja atualizado.
 - Utilizar o histórico de commits no GitHub para apoiar *code review* de cenários de teste de API, quando necessário.
-
----
-
-## 📌 Próximos passos (opcional)
-
-- Adicionar novas collections oficiais de outras APIs nesta mesma integração, cada uma com seu próprio arquivo `.postman_collection.json`.
-- Padronizar a estrutura de pastas para algo como:
-
-```text
-Postman Collections/
-├── core-api.postman_collection.json
-├── auth-api.postman_collection.json
-└── payments-api.postman_collection.json
-```
-
-- Evoluir o fluxo para uso de branches e Pull Requests para mudanças maiores nas collections, se o time desejar um nível extra de governança.
 
 ---
