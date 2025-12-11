@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://viacep.com.br/ws/01011100/json/"
+				"url": "https://viacep.com.br/ws/03165002/json/"
 			},
 			"response": []
 		}
