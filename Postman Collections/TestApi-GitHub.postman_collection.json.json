@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "87a8b446-8aaa-4151-8169-aacf3455aedd",
+		"name": "TestApi + GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "0dbfb76a-1694-4622-9b13-1184c7b9beb9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
